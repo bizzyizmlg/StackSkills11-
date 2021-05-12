@@ -1,5 +1,6 @@
 body {
-    font: Arial, Helvetica, sans-serif
+    font: Arial, Helvetica, sans-serif;
+    background: linear-gradient(white, grey);
 }
 #container {
     width: 1050px;
@@ -23,7 +24,7 @@ h1 a{
     width: 400px;
     height: 50px;
     padding: 20px 20px 0 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #brand {
     float: left;
@@ -62,14 +63,14 @@ h1 a{
     background: -webkit-linear-gradient(#F8F594, #D5D533);
     background: -moz-linear-gradient(#F8F594, #D5D533);
     background: -o-linear-gradient(#F8F594, #D5D533);
-    padding: 7px 0;;
+    padding: 7px 0;
 }
 ul {
     list-style: none;
 }
 #menu ul li {
     float: left;
-    padding: 0 10px;
+    padding: 0 30px;
     height: 30px;
     border-right: 1px solid #5d12e7;
 }
@@ -151,6 +152,7 @@ ul {
 
 .sidebar ul li a:hover, .sidebar ul li a.active{
     text-decoration: none;
+    font-weight: bold;
     font-size: 30px;
     color:#861BBF;
 
